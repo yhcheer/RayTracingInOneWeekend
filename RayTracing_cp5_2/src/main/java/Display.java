@@ -48,7 +48,8 @@ public class Display {
 
         //多个球体的信息
         List<Hitable> objList = new ArrayList<Hitable>();
-        objList.add(new Sphere(new Vec3(0.0f,0.0f,-1.0f), 0.5f));        //球的圆心和半径
+        objList.add(new Sphere(new Vec3(0.0f,0.0f,-1.0f), 0.5f));
+        objList.add(new Sphere(new Vec3(0.3f,0.0f,-1.0f), 0.3f));
         objList.add(new Sphere(new Vec3(0.0f,-100.5f,-1.0f), 100f));
         world = new HitableList(objList);
 
