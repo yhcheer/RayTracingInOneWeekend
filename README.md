@@ -4,7 +4,15 @@
 
 http://yhcheer.com/2018/10/20/ray-tarcing/
 
-各章节对应效果图如下
+生成的图片为ppm格式，可用下面几行python脚本手动转成jpg格式。
+
+```python
+import PythonMagick as PM
+img = PM.Image(r"C:\Users\yh\Documents\CG\result\Chapter6_20_39_01.ppm")
+img.write(r"C:\Users\yh\Documents\CG\result\Cp6.jpg")
+```
+
+各章节对应效果图一览：
 
 Chapter1：
 
