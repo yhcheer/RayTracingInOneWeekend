@@ -1,6 +1,8 @@
 import java.io.FileWriter;
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.Date;
+import java.util.List;
 
 
 public class Display {
@@ -13,6 +15,11 @@ public class Display {
     private Vec3 vertical = new Vec3(0.0f, 2.0f, 0.0f);
     private Vec3 origin = new Vec3(0.0f, 0.0f, 0.0f);
 
+
+    Hitable world;
+
+
+
     /**
      * 设置保存路径及图片名
      * @return 要保存的图片名
@@ -24,6 +31,8 @@ public class Display {
         return pictureName;
     }
 
+
+
     public Display() {
         this(200, 100, "Ray Tracer");
     }
@@ -33,11 +42,15 @@ public class Display {
         this.height = height;
         this.title = title;
 
-
-
         ConsoleProgress cpb = new ConsoleProgress(0, width*height, 100, '=');
         String pictureName = Display.init();
         System.out.println("pictureName:" + pictureName);
+
+        //多个球体的信息
+        List<Hitable> objList = new ArrayList<Hitable>();
+        objList.add(new Sphere(new Vec3(0.0f,0.0f,-1.0f), 0.5f));        //球的圆心和半径
+        objList.add(new Sphere(new Vec3(0.0f,-100.5f,-1.0f), 100f));
+        world = new HitableList(objList);
 
         try{
             FileWriter fw = new FileWriter(pictureName);
@@ -84,16 +97,17 @@ public class Display {
 
     public Vec3 color(Ray r)
     {
-        float t = hitSphere(new Vec3(0,0,-1), 0.5f, r);
-        if(t > 0.0){
-            Vec3 N = r.point_at_parameter(t).Subtract(new Vec3(0, 0, -1)).normalize(); //t时刻（即交点）的坐标 - 圆心坐标 = 法向量 （并做了归一化）
-            return new Vec3(N.x()+1,N.y()+1,N.z()+1).Scale(0.5f);
+        HitRecord rec = new HitRecord();
+        if(world.hit(r, 0.0f, Float.MAX_VALUE, rec)){
+            //有撞击点，按撞击点法向量代表的颜色绘制
+            return new Vec3(rec.normal.x()+1,rec.normal.y()+1,rec.normal.z()+1).Scale(0.5f);
         }
-
-        Vec3 unit_dir = r.direction().normalize();  //单位方向向量
-        t = 0.5f * (unit_dir.y() + 1.0f);     //原本范围为[-1,1]调整为[0,1]
-        return new Vec3(1.0f, 1.0f, 1.0f).Scale(1.0f - t).Add(new Vec3(0.5f, 0.7f, 1.0f).Scale(t));
-        //返回背景(1.0-t)*vec3(1.0, 1.0, 1.0) + t*vec3(0.5, 0.7, 1.0); 沿着y轴线性插值，返回的颜色介于白色与天蓝色之间
-
+        else{
+            //没有撞击点，绘制背景
+            Vec3 unit_dir = r.direction().normalize();  //单位方向向量
+            float t = 0.5f * (unit_dir.y() + 1.0f);     //原本范围为[-1,1]调整为[0,1]
+            return new Vec3(1.0f, 1.0f, 1.0f).Scale(1.0f - t).Add(new Vec3(0.5f, 0.7f, 1.0f).Scale(t));
+            //返回背景(1.0-t)*vec3(1.0, 1.0, 1.0) + t*vec3(0.5, 0.7, 1.0); 沿着y轴线性插值，返回的颜色介于白色与天蓝色之间
+        }
     }
 }
