@@ -8,21 +8,21 @@ http://yhcheer.com/2018/10/20/ray-tarcing/
 
 Chapter1：
 
-![cp1](//r.photo.store.qq.com/psb?/V10ldIv84XBZXi/x.038.PfL5*wd0oNwpGfsJBRXYTXWSklobn3gtk6Jxs!/r/dDUBAAAAAAAA&bo=vAc4BLwHOAQRCT4!&rf=viewer_4_yake_qzoneimgout.png)
+![cp1](https://raw.githubusercontent.com/yhcheer/RayTracingInOneWeekend/master/image/Cp1.jpg)
 
 Chapter3：
 
-![Cp3](//r.photo.store.qq.com/psb?/V10ldIv84XBZXi/IFEfsAGZ.c0YGGq7yGtwDp2oQBMEAfeM4RGcdxzqakQ!/r/dDEBAAAAAAAA&bo=vAc4BLwHOAQRGS4!&rf=viewer_4_yake_qzoneimgout.png)
+![Cp3](https://raw.githubusercontent.com/yhcheer/RayTracingInOneWeekend/master/image/Cp3.jpg)
 
 Chapter4：
 
-![CP4](//r.photo.store.qq.com/psb?/V10ldIv84XBZXi/OUB2NNHc4sRK2nTF5*HHf6B4hXgJAZiMIaWdMRwoFeI!/r/dDcBAAAAAAAA&bo=vAc4BLwHOAQRGS4!&rf=viewer_4_yake_qzoneimgout.png)
+![CP4](https://raw.githubusercontent.com/yhcheer/RayTracingInOneWeekend/master/image/Cp4.jpg)
 
 Chapter5-1：
 
-![cp5-1](//r.photo.store.qq.com/psb?/V10ldIv84XBZXi/oqzZ1K9bgijPAMEVJsb5KpYeKKNvyyh.cWkU*2Z67OM!/r/dDQBAAAAAAAA&bo=vAc4BLwHOAQRGS4!&rf=viewer_4_yake_qzoneimgout.png)
+![cp5-1](https://raw.githubusercontent.com/yhcheer/RayTracingInOneWeekend/master/image/Cp5_1.jpg)
 
 Chapter5-2：
 
-![](//r.photo.store.qq.com/psb?/V10ldIv84XBZXi/3VXiMC6EbskYv*o2TDktva9wTqeAcckflY1RWI0AMno!/r/dDEBAAAAAAAA&bo=vAc4BLwHOAQRGS4!&rf=viewer_4_yake_qzoneimgout.png)
+![](https://raw.githubusercontent.com/yhcheer/RayTracingInOneWeekend/master/image/Cp5_3.jpg)
 
