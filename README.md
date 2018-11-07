@@ -34,3 +34,11 @@ Chapter5-2：
 
 ![](https://raw.githubusercontent.com/yhcheer/RayTracingInOneWeekend/master/image/Cp5_3.jpg)
 
+Chapter6：
+
+![Cp6](https://raw.githubusercontent.com/yhcheer/RayTracingInOneWeekend/master/image/Cp6.jpg)
+
+Chapter7：
+
+![](https://raw.githubusercontent.com/yhcheer/RayTracingInOneWeekend/master/image/Cp7.jpg)
+
