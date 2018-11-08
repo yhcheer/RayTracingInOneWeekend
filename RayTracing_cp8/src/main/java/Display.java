@@ -37,8 +37,8 @@ public class Display {
         List<Hitable> objList = new ArrayList<Hitable>();
         objList.add(new Sphere(new Vec3(0.0f,0.0f,-1.0f), 0.5f, new Lambertian(new Vec3(0.8f, 0.3f, 0.3f))));
         objList.add(new Sphere(new Vec3(0.0f,-100.5f,-1.0f), 100f, new Lambertian(new Vec3(0.8f, 0.8f, 0.0f))));
-        objList.add(new Sphere(new Vec3(1,0,-1), 0.5f, new Metal(new Vec3(0.8f, 0.6f, 0.2f))));
-        objList.add(new Sphere(new Vec3(-1,0,-1), 0.5f, new Metal(new Vec3(0.8f, 0.8f, 0.8f))));
+        objList.add(new Sphere(new Vec3(1,0,-1), 0.5f, new Metal(new Vec3(0.8f, 0.6f, 0.2f), 0.1f)));
+        objList.add(new Sphere(new Vec3(-1,0,-1), 0.5f, new Metal(new Vec3(0.8f, 0.8f, 0.8f), 0.1f)));
         Hitable world = new HitableList(objList);
 
         Camera camera = new Camera();
@@ -76,15 +76,16 @@ public class Display {
 
 
 
+
+
     public Vec3 color(Ray r, Hitable world, int depth)
     {
         HitRecord rec = new HitRecord();
         if(world.hit(r, 0.001f, Float.MAX_VALUE, rec)){
             //任何物体有撞击点
-            Ray scattered = new Ray();
-            Vec3 attenuation = new Vec3();
-            if(depth < 50 && rec.matPtr.scatter(r, rec, attenuation, scattered)){
-                return color(scattered, world, depth+1).Multiply(attenuation);
+            Wrapper wrapper = new Wrapper();
+            if(depth < 50 && rec.matPtr.scatter(r, rec, wrapper)){
+                return color(wrapper.scattered, world, depth+1).Multiply(wrapper.attenuation);
             }else{
                 return new Vec3(0,0,0);
             }

@@ -42,3 +42,7 @@ Chapter7：漫反射
 
 ![](https://raw.githubusercontent.com/yhcheer/RayTracingInOneWeekend/master/image/Cp7.jpg)
 
+Chapter8：镜面反射（加模糊处理）
+
+![]()
+

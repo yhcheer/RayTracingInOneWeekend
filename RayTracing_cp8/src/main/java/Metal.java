@@ -1,20 +1,26 @@
 public class Metal extends Material{
 
     Vec3 albedo;    //反射率
-
+    float fuzz;     //镜面模糊
 
     public Metal() {
     }
 
-    public Metal(Vec3 albedo) {
+    public Metal(Vec3 albedo, float f) {
         this.albedo = albedo;
+        if(f < 1){
+            this.fuzz = f;
+        }
+        else {
+            this.fuzz = 1;
+        }
     }
 
     @Override
-    public boolean scatter(Ray r, HitRecord rec, Vec3 attenuation, Ray scattered) {
+    public boolean scatter(Ray r, HitRecord rec, Wrapper wrapper) {
         Vec3 ref = reflect(r.direction(), rec.normal.normalize());
-        scattered = new Ray(rec.p, ref);    //p->ref
-        attenuation = albedo;
+        wrapper.scattered = new Ray(rec.p, ref.Add(randomInUnitSphere().Scale(fuzz)));    //p->ref
+        wrapper.attenuation = albedo;
         return (ref.dot(rec.normal) > 0);
     }
 
