@@ -23,7 +23,7 @@ public class Sphere extends Hitable
     public boolean hit(Ray r, float t_min, float t_max, HitRecord rec) {
         Vec3 oc = r.origin().Subtract(center);
         float a = r.direction().dot(r.direction());
-        float b = 2 * oc.dot(r.direction());
+        float b = 2.0f * oc.dot(r.direction());
         float c = oc.dot(oc) - radius*radius;
         float discriminant = b*b - 4.0f*a*c;
         if(discriminant > 0)

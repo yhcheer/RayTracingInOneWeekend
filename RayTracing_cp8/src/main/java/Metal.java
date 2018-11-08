@@ -2,6 +2,10 @@ public class Metal extends Material{
 
     Vec3 albedo;    //反射率
 
+
+    public Metal() {
+    }
+
     public Metal(Vec3 albedo) {
         this.albedo = albedo;
     }
@@ -10,7 +14,7 @@ public class Metal extends Material{
     public boolean scatter(Ray r, HitRecord rec, Vec3 attenuation, Ray scattered) {
         Vec3 ref = reflect(r.direction(), rec.normal.normalize());
         scattered = new Ray(rec.p, ref);    //p->ref
-        attenuation = this.albedo;
+        attenuation = albedo;
         return (ref.dot(rec.normal) > 0);
     }
 

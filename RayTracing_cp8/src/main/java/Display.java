@@ -34,14 +34,13 @@ public class Display {
         System.out.println("pictureName:" + pictureName);
 
         //多个球体的信息
-        List<Hitable> objList = new ArrayList<Hitable>(4);
+        List<Hitable> objList = new ArrayList<Hitable>();
         objList.add(new Sphere(new Vec3(0.0f,0.0f,-1.0f), 0.5f, new Lambertian(new Vec3(0.8f, 0.3f, 0.3f))));
         objList.add(new Sphere(new Vec3(0.0f,-100.5f,-1.0f), 100f, new Lambertian(new Vec3(0.8f, 0.8f, 0.0f))));
         objList.add(new Sphere(new Vec3(1,0,-1), 0.5f, new Metal(new Vec3(0.8f, 0.6f, 0.2f))));
         objList.add(new Sphere(new Vec3(-1,0,-1), 0.5f, new Metal(new Vec3(0.8f, 0.8f, 0.8f))));
-
-
         Hitable world = new HitableList(objList);
+
         Camera camera = new Camera();
         int ns = 100; //采样次数 消锯齿
         try{
@@ -55,7 +54,7 @@ public class Display {
                         float u = (float)(i + Math.random())/(float)width; //添加随机数 消锯齿
                         float v = (float)(j + Math.random())/(float)height;
                         Ray r = camera.GetRay(u, v);
-                        col = col.Add(color(r,world, 0));      //根据每个像素点上色 累加
+                        col = col.Add(color(r, world, 0));      //根据每个像素点上色 累加
                     }
                     col = col.Scale(1.0f/(float)ns);        //除以采样次数 平均化
                     col = new Vec3((float)Math.sqrt(col.x()), (float)Math.sqrt(col.y()), (float)Math.sqrt(col.z())); //gamma矫正
@@ -76,10 +75,12 @@ public class Display {
     }
 
 
+
     public Vec3 color(Ray r, Hitable world, int depth)
     {
         HitRecord rec = new HitRecord();
         if(world.hit(r, 0.001f, Float.MAX_VALUE, rec)){
+            //任何物体有撞击点
             Ray scattered = new Ray();
             Vec3 attenuation = new Vec3();
             if(depth < 50 && rec.matPtr.scatter(r, rec, attenuation, scattered)){

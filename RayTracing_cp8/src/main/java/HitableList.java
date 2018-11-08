@@ -3,7 +3,7 @@ import java.util.List;
 
 public class HitableList extends Hitable
 {
-    List<Hitable> list;
+    public List<Hitable> list;
 
     public HitableList() {
         list = new ArrayList<Hitable>();
@@ -31,10 +31,11 @@ public class HitableList extends Hitable
             {
                 hitAnything = true;
                 closestSoFar = tempRec.t;       //每当有撞击点，tmax就会减为最近的一次撞击点
-                //rec = tempRec;  // so annoying simple assignment doesnt work here
+//                rec = tempRec;
                 rec.t = tempRec.t;
                 rec.normal = tempRec.normal;
                 rec.p = tempRec.p;
+                rec.matPtr = tempRec.matPtr;
             }
         }
         return hitAnything;
