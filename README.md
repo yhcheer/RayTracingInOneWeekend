@@ -1,4 +1,4 @@
-# RayTracingInOneWeekend
+RayTracingInOneWeekend
 
 细读《Ray tracing in one weekend》，想用JAVA写一个光线追踪渲染器，还在施工中。
 
@@ -44,5 +44,5 @@ Chapter7：漫反射
 
 Chapter8：镜面反射（加模糊处理）
 
-![]()
+![cp8](https://raw.githubusercontent.com/yhcheer/RayTracingInOneWeekend/master/image/Cp8.jpg)
 
