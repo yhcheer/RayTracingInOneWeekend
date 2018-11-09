@@ -17,7 +17,7 @@ img.write(r"C:\Users\yh\Documents\CG\result\Cp6.jpg")
 
 ### Chapter 12:  Where next?
 
-![](https://raw.githubusercontent.com/yhcheer/RayTracingInOneWeekend/master/image/Cp12.jpg)
+![](https://raw.githubusercontent.com/yhcheer/RayTracingInOneWeekend/master/image/Cp0.jpg)
 
 ### Chapter 11:   Defocus Blur
 
