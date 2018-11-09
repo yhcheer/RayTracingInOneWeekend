@@ -1,8 +1,8 @@
 # RayTracingInOneWeekend
 
-细读《Ray tracing in one weekend》，想用JAVA写一个光线追踪渲染器，还在施工中。
+细读《Ray tracing in one weekend》，原著是用C++实现的光线追踪渲染器，这里是JAVA的复现版本。
 
-http://yhcheer.com/2018/10/20/ray-tarcing/
+笔记仍在总结中http://yhcheer.com/2018/10/20/ray-tarcing/
 
 生成的图片为ppm格式，可用下面示例的几行python代码手动转成jpg格式。
 
