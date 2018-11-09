@@ -7,42 +7,56 @@ http://yhcheer.com/2018/10/20/ray-tarcing/
 生成的图片为ppm格式，可用下面示例的几行python代码手动转成jpg格式。
 
 ```python
+#ppm2jpg
 import PythonMagick as PM
 img = PM.Image(r"C:\Users\yh\Documents\CG\result\Chapter6_20_39_01.ppm")
 img.write(r"C:\Users\yh\Documents\CG\result\Cp6.jpg")
 ```
 
-各章节对应效果图一览：
+All Images of Every Chapters are As follows：
 
-Chapter1：绘制一张图
+Chapter 1：Output an image
 
 ![cp1](https://raw.githubusercontent.com/yhcheer/RayTracingInOneWeekend/master/image/Cp1.jpg)
 
-Chapter3：绘制背景图
+Chapter 2:   The vec3 class
+
+Chapter 3:  Rays, a simple camera, and background
 
 ![Cp3](https://raw.githubusercontent.com/yhcheer/RayTracingInOneWeekend/master/image/Cp3.jpg)
 
-Chapter4：光线碰撞一个球体
+Chapter 4:  Adding a sphere
 
 ![CP4](https://raw.githubusercontent.com/yhcheer/RayTracingInOneWeekend/master/image/Cp4.jpg)
 
-Chapter5-1：光线碰撞球体返回的颜色
+Chapter 5:   Surface normals and  multiple objects.
 
 ![cp5-1](https://raw.githubusercontent.com/yhcheer/RayTracingInOneWeekend/master/image/Cp5_1.jpg)
 
-Chapter5-2：多个球体共存
-
 ![](https://raw.githubusercontent.com/yhcheer/RayTracingInOneWeekend/master/image/Cp5_3.jpg)
 
-Chapter6：抗锯齿效果
+Chapter 6:  Antialiasing
 
 ![Cp6](https://raw.githubusercontent.com/yhcheer/RayTracingInOneWeekend/master/image/Cp6.jpg)
 
-Chapter7：漫反射
+Chapter 7:    Diffuse Materials
 
 ![](https://raw.githubusercontent.com/yhcheer/RayTracingInOneWeekend/master/image/Cp7.jpg)
 
-Chapter8：镜面反射（加模糊处理）
+Chapter 8:  Metal
 
 ![cp8](https://raw.githubusercontent.com/yhcheer/RayTracingInOneWeekend/master/image/Cp8.jpg)
 
+Chapter 9:  Dielectrics
+
+
+
+Chapter 10:  Positionable camera
+
+
+
+Chapter 11:   Defocus Blur
+
+
+
+Chapter 12:  Where next?
