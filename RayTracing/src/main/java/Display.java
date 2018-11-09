@@ -100,7 +100,7 @@ public class Display {
 
         List<Hitable> objList = new ArrayList<Hitable>();
         //超大漫反射球作为地板
-        objList.add(new Sphere(new Vec3(0.0f,-1000.0f,0.0f), 0.5f, new Lambertian(new Vec3(0.5f, 0.5f, 0.5f))));
+        objList.add(new Sphere(new Vec3(0.0f,-1000.0f,0.0f), 1000.0f, new Lambertian(new Vec3(0.5f, 0.5f, 0.5f))));
         //定义三大球
         objList.add(new Sphere(new Vec3(0, 1, 0), 1.0f, new Dielectric(1.5f)));
         objList.add(new Sphere(new Vec3(-4, 1, 0), 1.0f, new Lambertian(new Vec3(0.4f, 0.2f, 0.1f))));
