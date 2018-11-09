@@ -55,7 +55,9 @@ img.write(r"C:\Users\yh\Documents\CG\result\Cp6.jpg")
 
 ### Chapter 10:  Positionable camera
 
+![](https://raw.githubusercontent.com/yhcheer/RayTracingInOneWeekend/master/image/Cp10.jpg)
 
+![](https://raw.githubusercontent.com/yhcheer/RayTracingInOneWeekend/master/image/Cp10_2.jpg)
 
 ### Chapter 11:   Defocus Blur
 
