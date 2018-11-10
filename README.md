@@ -1,6 +1,16 @@
 # RayTracingInOneWeekend
 
+## Introduce
+
 细读《Ray tracing in one weekend》，原著是用C++实现的光线追踪渲染器，这里是JAVA的复现版本。
+
+PeterShirley's RayTracing Tutorial use Java
+
+1. [RayTracingInOneWeekend](https://github.com/yhcheer/RayTracingInOneWeekend)
+
+2. [RayTracingTheNextWeek](https://github.com/yhcheer/RayTracingTheNextWeek)
+
+3. [RayTracingTheRestOfYourLife](https://github.com/yhcheer/RayTracingTheRestOfYourLife)
 
 笔记仍在总结中http://yhcheer.com/2018/10/20/ray-tarcing/
 

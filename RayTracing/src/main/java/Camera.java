@@ -42,14 +42,15 @@ public class Camera
 
     public Ray GetRay(float u, float v)
     {
+        //仿照一个透镜 模拟光圈的作用
         Vec3 rd = randomInUnitSphere().Scale(lens_radius);
         Vec3 offset = this.u.Scale(rd.x()).Add(this.v.Scale(rd.y()));
         return new Ray(origin.Add(offset), lower_left.Add(horizontal.Scale(u)).Add(vertical.Scale(v)).Subtract(origin).Subtract(offset));
     }
 
     /**
-     * 生成一个单位球内的随机坐标
-     * @return 单位球内的随机坐标
+     * 生成一个单位圆内的随机坐标
+     * @return 单位圆内的随机坐标
      */
     public Vec3 randomInUnitSphere(){
         Vec3 p;
