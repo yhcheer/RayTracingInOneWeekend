@@ -2,9 +2,9 @@
 
 ## Introduce
 
-细读《Ray tracing in one weekend》，原著是用C++实现的光线追踪渲染器，这里是JAVA的复现版本。
+《Ray tracing in one weekend》is a good book for ray tracing tutorial, and Peter Shirley implements a simple ray tracing engine by C++.
 
-PeterShirley's RayTracing Tutorial use Java
+ This is my Ray Tracing Tutorial of **JAVA version**. 
 
 1. [RayTracingInOneWeekend](https://github.com/yhcheer/RayTracingInOneWeekend)
 
@@ -12,9 +12,9 @@ PeterShirley's RayTracing Tutorial use Java
 
 3. [RayTracingTheRestOfYourLife](https://github.com/yhcheer/RayTracingTheRestOfYourLife)
 
-笔记仍在总结中http://yhcheer.com/2018/10/20/ray-tarcing/
+My note about this book is still writing.http://yhcheer.com/2018/10/20/ray-tarcing/
 
-生成的图片为ppm格式，可用下面示例的几行python代码手动转成jpg格式。
+The output of my projects are PPM（P3） files. You can use ImageMagick to transfer into JPG file, or you can use other Image Viewer software to open it. 
 
 ```python
 #ppm2jpg
