@@ -10,13 +10,6 @@ public class Display {
     private int height;  //高
     private String title;//标题
 
-
-
-
-
-
-
-
     /**
      * 设置保存路径及图片名
      * @return 要保存的图片名
@@ -57,12 +50,12 @@ public class Display {
             int index = 0;
             for(int j = height - 1; j >= 0; j--){
                 for(int i = 0; i < width; i++){
-                    Vec3 col = new Vec3(0,0,0);
+                    Vec3 col = new Vec3(0,0,0);   //初始化该点的像素
                     for(int s = 0; s < ns; s++){
                         float u = (float)(i + Math.random())/(float)width; //添加随机数 消锯齿
                         float v = (float)(j + Math.random())/(float)height;
-                        Ray r = camera.GetRay(u, v);
-                        col = col.Add(color(r,world));      //根据每个像素点上色 累加
+                        Ray r = camera.GetRay(u, v);        //根据uv得出光线向量
+                        col = col.Add(color(r,world));      //根据每个像素点（光线）上色 累加
                     }
                     col = col.Scale(1.0f/(float)ns);        //除以采样次数 平均化
                     index += 1;

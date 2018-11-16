@@ -12,7 +12,7 @@
 
 3. [RayTracingTheRestOfYourLife](https://github.com/yhcheer/RayTracingTheRestOfYourLife)
 
-Some thinking in this book.http://yhcheer.com/2018/10/20/ray-tarcing/
+Some thinking in this book.https://zhuanlan.zhihu.com/p/49943215
 
 The output of my projects is a PPM(P3) file. You can use ImageMagick to transfer into a JPG file, or you can use other Image Viewer software(eg: XnView) to open it. 
 
