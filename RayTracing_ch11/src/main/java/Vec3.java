@@ -48,7 +48,7 @@ public class Vec3 {
         return new Vec3(e[0] * t, e[1] * t, e[2] * t);
     }
 
-    //矩阵相乘
+    //按向量对应维度乘
     public Vec3 Multiply(Vec3 a, Vec3 b){
         return new Vec3(a.e[0]*b.e[0], a.e[1]*b.e[1], a.e[2]*b.e[2]);
     }

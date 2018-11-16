@@ -96,6 +96,11 @@ public class Display {
         }
     }
 
+    /**
+     *
+     * @param r 光线
+     * @return 颜色
+     */
     public Vec3 color(Ray r)
     {
         HitRecord rec = new HitRecord();

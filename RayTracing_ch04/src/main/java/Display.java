@@ -65,6 +65,13 @@ public class Display {
         }
     }
 
+    /**
+     * 是否碰到那个球
+     * @param center 球的圆心
+     * @param radius 球的半径
+     * @param r 光线
+     * @return 光线是否碰到球
+     */
     public boolean hitSphere(final Vec3 center, float radius, final Ray r)
     {
         Vec3 oc = r.origin().Subtract(center);      //oc = A-C
@@ -82,6 +89,11 @@ public class Display {
         }
     }
 
+    /**
+     *
+     * @param r 光线
+     * @return 光线代表像素的颜色
+     */
     public Vec3 color(Ray r)
     {
         if(hitSphere(new Vec3(0,0,-1), 0.5f, r)){

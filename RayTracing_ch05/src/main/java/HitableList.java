@@ -13,7 +13,7 @@ public class HitableList extends Hitable
     }
 
     /**
-     * 判断列表里的每个球是否撞击
+     * 判断列表里的任意一个球是否撞击
      * @param r 光线
      * @param t_min 范围
      * @param t_max 范围
@@ -31,7 +31,6 @@ public class HitableList extends Hitable
             {
                 hitAnything = true;
                 closestSoFar = tempRec.t;       //每当有撞击点，tmax就会减为最近的一次撞击点
-                //rec = tempRec;  // so annoying simple assignment doesnt work here
                 rec.t = tempRec.t;
                 rec.normal = tempRec.normal;
                 rec.p = tempRec.p;

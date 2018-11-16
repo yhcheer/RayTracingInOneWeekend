@@ -14,7 +14,7 @@
 
 Some thinking in this book.http://yhcheer.com/2018/10/20/ray-tarcing/
 
-The output of my projects is a PPM(P3) file. You can use ImageMagick to transfer into a JPG file, or you can use other Image Viewer software(eg: XnViewer) to open it. 
+The output of my projects is a PPM(P3) file. You can use ImageMagick to transfer into a JPG file, or you can use other Image Viewer software(eg: XnView) to open it. 
 
 ```python
 #ppm2jpg
