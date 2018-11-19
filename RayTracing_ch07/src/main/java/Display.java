@@ -102,7 +102,7 @@ public class Display {
     public Vec3 randomInUnitSphere(){
         Vec3 p;
         do{
-            p =new Vec3((float)(Math.random()), (float)(Math.random()), (float)(Math.random())).Subtract(new Vec3(1.0f, 1.0f, 1.0f)).Scale(2.0f);
+            p =new Vec3((float)(Math.random()), (float)(Math.random()), (float)(Math.random())).Scale(2.0f).Subtract(new Vec3(1.0f, 1.0f, 1.0f));
         }while (p.dot(p) >= 1.0f);
         return p;
     }
@@ -112,7 +112,7 @@ public class Display {
         HitRecord rec = new HitRecord();
         if(world.hit(r, 0.0f, Float.MAX_VALUE, rec)){
             //有撞击点
-            Vec3 target = rec.p.Add(rec.normal).Add(randomInUnitSphere());
+            Vec3 target = rec.p.Add(rec.normal.normalize()).Add(randomInUnitSphere());
             //递归，每次吸收50%的能量
             return color(new Ray(rec.p, target.Subtract(rec.p)), world).Scale(0.5f);
 
