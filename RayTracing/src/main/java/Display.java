@@ -16,7 +16,7 @@ public class Display {
     static String init(){
         SimpleDateFormat df = new SimpleDateFormat("HH_mm_ss");
         String outputPath = "C:\\Users\\yh\\Documents\\CG\\result\\";
-        String pictureName = outputPath + "RayTracing_" + df.format(new Date()) + ".ppm";
+        String pictureName = outputPath + "RayTracingTest_" + df.format(new Date()) + ".ppm";
         return pictureName;
     }
 

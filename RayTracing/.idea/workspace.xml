@@ -3,6 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="c8b77129-1558-4e1b-af28-786542558ff2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Display.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Display.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RayTracing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RayTracing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Display.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Display.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/RayTracing.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/RayTracing.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RayTracing_ch07/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RayTracing_ch07/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -303,22 +308,23 @@
     <session id="468555886">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.11" value="2" />
+          <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="300" />
+          <entry key="java" value="307" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="300" />
+          <entry key="JAVA" value="307" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -338,11 +344,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Display.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="45" column="32" selection-start-line="45" selection-start-column="32" selection-end-line="45" selection-end-column="32" />
+            <state relative-caret-position="285">
+              <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -425,15 +431,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/RayTracing.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
-              <folding>
-                <element signature="e#69#70#0" expanded="true" />
-                <element signature="e#156#157#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="190">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -469,10 +471,10 @@
         <option value="$PROJECT_DIR$/src/main/java/Dielectic.java" />
         <option value="$PROJECT_DIR$/src/main/java/Lambertian.java" />
         <option value="$PROJECT_DIR$/src/main/java/Ray.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Display.java" />
         <option value="$PROJECT_DIR$/src/main/java/Camera.java" />
         <option value="$PROJECT_DIR$/src/main/java/Vec3.java" />
         <option value="$PROJECT_DIR$/src/main/java/RayTracing.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Display.java" />
       </list>
     </option>
   </component>
@@ -519,7 +521,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -550,6 +551,7 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -599,16 +601,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49875313" visible="true" weight="0.18498659" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49875313" visible="true" weight="0.18923241" />
       <window_info id="Structure" order="1" sideWeight="0.50124687" side_tool="true" weight="0.13337801" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" sideWeight="0.50124687" side_tool="true" weight="0.13337801" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32340425" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32247558" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49865952" weight="0.4348442" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -616,7 +618,7 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50067025" side_tool="true" weight="0.43120566" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32340425" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32247558" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -690,8 +692,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Display.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="45" column="32" selection-start-line="45" selection-start-column="32" selection-end-line="45" selection-end-column="32" />
+        <state relative-caret-position="285">
+          <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -759,12 +761,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/RayTracing.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="e#69#70#0" expanded="true" />
-            <element signature="e#156#157#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="190">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
