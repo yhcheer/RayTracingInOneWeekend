@@ -2,12 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8b77129-1558-4e1b-af28-786542558ff2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Display.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Display.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/RayTracing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RayTracing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Display.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Display.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/RayTracing.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/RayTracing.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RayTracing_ch07/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RayTracing_ch07/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RayTracing_ch09/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RayTracing_ch09/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RayTracing_ch09/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RayTracing_ch09/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RayTracing_ch09/src/main/java/Dielectic.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RayTracing_ch09/src/main/java/Dielectic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RayTracing_ch09/src/main/java/Display.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RayTracing_ch09/src/main/java/Display.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RayTracing_ch09/target/classes/Display.class" beforeDir="false" afterPath="$PROJECT_DIR$/../RayTracing_ch09/target/classes/Display.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RayTracing_ch10/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RayTracing_ch10/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RayTracing_ch10/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RayTracing_ch10/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RayTracing_ch10/src/main/java/Camera.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RayTracing_ch10/src/main/java/Camera.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RayTracing_ch11/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RayTracing_ch11/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RayTracing_ch11/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RayTracing_ch11/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -338,17 +344,27 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="1539601623">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FavoritesManager">
     <favorites_list name="RayTracing_cp8" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Display.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+            <state relative-caret-position="-41">
+              <caret line="108" lean-forward="true" selection-start-line="108" selection-end-line="108" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -413,8 +429,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Camera.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="551">
-              <caret line="29" selection-start-line="29" selection-end-line="29" />
+            <state relative-caret-position="266">
+              <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -431,11 +447,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/RayTracing.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state>
+              <caret column="13" selection-start-column="13" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -450,7 +466,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -509,9 +525,9 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="615" />
-    <option name="y" value="90" />
-    <option name="width" value="1195" />
-    <option name="height" value="1105" />
+    <option name="y" value="209" />
+    <option name="width" value="837" />
+    <option name="height" value="839" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -521,6 +537,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -550,7 +567,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -604,7 +620,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49875313" visible="true" weight="0.18923241" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49875313" visible="true" weight="0.14552239" />
       <window_info id="Structure" order="1" sideWeight="0.50124687" side_tool="true" weight="0.13337801" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" sideWeight="0.50124687" side_tool="true" weight="0.13337801" />
@@ -690,16 +706,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Display.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/HitRecord.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
@@ -744,8 +750,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Camera.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="266">
+          <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -761,8 +767,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/RayTracing.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Display.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-41">
+          <caret line="108" lean-forward="true" selection-start-line="108" selection-end-line="108" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

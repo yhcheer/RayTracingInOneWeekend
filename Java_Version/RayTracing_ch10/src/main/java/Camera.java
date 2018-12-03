@@ -12,7 +12,7 @@ public class Camera
      * @param lookfrom 相机位置
      * @param lookat 观察点
      * @param vup 相机的倾斜方向 view up
-     * @param vfov 角度 field of view
+     * @param vfov 视野 field of view
      * @param aspect 宽高比
      */
     public Camera(Vec3 lookfrom, Vec3 lookat, Vec3 vup, float vfov, float aspect){

@@ -36,9 +36,10 @@ public class Display {
         //多个球体的信息
         List<Hitable> objList = new ArrayList<Hitable>();
         objList.add(new Sphere(new Vec3(0.0f,0.0f,-1.0f), 0.5f, new Lambertian(new Vec3(0.1f, 0.2f, 0.5f))));
+
         objList.add(new Sphere(new Vec3(0.0f,-100.5f,-1.0f), 100f, new Lambertian(new Vec3(0.8f, 0.8f, 0.0f))));
-        objList.add(new Sphere(new Vec3(1,0,-1), 0.5f, new Metal(new Vec3(0.8f, 0.6f, 0.2f), 0.1f)));
-        objList.add(new Sphere(new Vec3(-1,0,-1), 0.5f, new Dielectic(1.5f)));
+        objList.add(new Sphere(new Vec3(1.5f,0,-2), 0.5f, new Metal(new Vec3(0.8f, 0.6f, 0.2f), 0.1f)));
+        objList.add(new Sphere(new Vec3(-1.5f,0,-2), 0.5f, new Dielectic(1.5f)));
         Hitable world = new HitableList(objList);
 
         Camera camera = new Camera();

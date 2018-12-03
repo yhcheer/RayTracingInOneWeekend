@@ -145,9 +145,6 @@ public class Display {
                 }
             }
         }
-
-
         return objList;
     }
-
 }

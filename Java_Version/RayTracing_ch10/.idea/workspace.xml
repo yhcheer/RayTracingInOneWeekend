@@ -2,12 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8b77129-1558-4e1b-af28-786542558ff2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../RayTracing_cp1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RayTracing_cp1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RayTracing/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RayTracing/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RayTracing/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RayTracing/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RayTracing_ch09/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RayTracing_ch09/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RayTracing_ch09/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RayTracing_ch09/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RayTracing_ch09/src/main/java/Dielectic.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RayTracing_ch09/src/main/java/Dielectic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RayTracing_ch09/src/main/java/Display.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RayTracing_ch09/src/main/java/Display.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RayTracing_ch09/target/classes/Display.class" beforeDir="false" afterPath="$PROJECT_DIR$/../RayTracing_ch09/target/classes/Display.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RayTracing_cp6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RayTracing_cp6/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RayTracing_cp7/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RayTracing_cp7/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RayTracing_cp7/src/main/java/Display.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RayTracing_cp7/src/main/java/Display.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RayTracing_cp7/target/classes/Display.class" beforeDir="false" afterPath="$PROJECT_DIR$/../RayTracing_cp7/target/classes/Display.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Camera.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Camera.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -279,17 +283,38 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="1245914408">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.opened" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="2" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FavoritesManager">
     <favorites_list name="RayTracing_cp8" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Display.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="35" column="17" lean-forward="true" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
+            <state relative-caret-position="475">
+              <caret line="73" column="40" selection-start-line="73" selection-start-column="40" selection-end-line="73" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -301,7 +326,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/Ray.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="228">
-              <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+              <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -319,7 +344,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/Lambertian.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="266">
-              <caret line="16" column="29" lean-forward="true" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+              <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -328,16 +353,16 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/Dielectic.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1634">
-              <caret line="88" lean-forward="true" selection-start-line="88" selection-end-line="88" />
+              <caret line="88" selection-start-line="88" selection-end-line="88" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Camera.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="503">
-              <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+            <state relative-caret-position="779">
+              <caret line="41" column="1" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -346,7 +371,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/Vec3.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1691">
-              <caret line="117" column="5" lean-forward="true" selection-start-line="117" selection-start-column="5" selection-end-line="117" selection-end-column="5" />
+              <caret line="117" column="5" selection-start-line="117" selection-start-column="5" selection-end-line="117" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -355,7 +380,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/HitableList.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="627">
-              <caret line="38" column="13" lean-forward="true" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+              <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -367,7 +392,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/RayTracing.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="133">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -382,7 +407,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -404,9 +429,9 @@
         <option value="$PROJECT_DIR$/src/main/java/Lambertian.java" />
         <option value="$PROJECT_DIR$/src/main/java/Ray.java" />
         <option value="$PROJECT_DIR$/src/main/java/Vec3.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Camera.java" />
         <option value="$PROJECT_DIR$/src/main/java/RayTracing.java" />
         <option value="$PROJECT_DIR$/src/main/java/Display.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Camera.java" />
       </list>
     </option>
   </component>
@@ -440,10 +465,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="616" />
-    <option name="y" value="90" />
-    <option name="width" value="1195" />
-    <option name="height" value="1104" />
+    <option name="x" value="-258" />
+    <option name="y" value="55" />
+    <option name="width" value="1196" />
+    <option name="height" value="1041" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -457,31 +482,26 @@
         <subPane>
           <expand>
             <path>
-              <item name="RayTracing_cp10" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RayTracing_cp10" type="462c0819:PsiDirectoryNode" />
+              <item name="RayTracing_ch10" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RayTracing_ch10" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="RayTracing_cp10" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RayTracing_cp10" type="462c0819:PsiDirectoryNode" />
+              <item name="RayTracing_ch10" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RayTracing_ch10" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="RayTracing_cp10" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RayTracing_cp10" type="462c0819:PsiDirectoryNode" />
+              <item name="RayTracing_ch10" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RayTracing_ch10" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="RayTracing_cp10" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RayTracing_cp10" type="462c0819:PsiDirectoryNode" />
+              <item name="RayTracing_ch10" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RayTracing_ch10" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RayTracing_cp10" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RayTracing_cp10" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -543,10 +563,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49875313" visible="true" weight="0.13739946" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49875313" visible="true" weight="0.14389652" />
       <window_info id="Structure" order="1" sideWeight="0.50124687" side_tool="true" weight="0.13337801" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" sideWeight="0.50124687" side_tool="true" weight="0.13337801" />
@@ -639,10 +659,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../RayTracing_cp11/src/main/java/Ray.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Display.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="73" column="40" selection-start-line="73" selection-start-column="40" selection-end-line="73" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Ray.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
-          <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -656,28 +687,35 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/Lambertian.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
-          <caret line="16" column="29" lean-forward="true" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Dielectic.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1634">
-          <caret line="88" lean-forward="true" selection-start-line="88" selection-end-line="88" />
+          <caret line="88" selection-start-line="88" selection-end-line="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Camera.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="779">
+          <caret line="41" column="1" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Vec3.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1691">
-          <caret line="117" column="5" lean-forward="true" selection-start-line="117" selection-start-column="5" selection-end-line="117" selection-end-column="5" />
+          <caret line="117" column="5" selection-start-line="117" selection-start-column="5" selection-end-line="117" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/HitableList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="627">
-          <caret line="38" column="13" lean-forward="true" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+          <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -687,27 +725,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/RayTracing.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../RayTracing_cp11/src/main/java/Ray.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Display.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="35" column="17" lean-forward="true" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Camera.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="503">
-          <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>

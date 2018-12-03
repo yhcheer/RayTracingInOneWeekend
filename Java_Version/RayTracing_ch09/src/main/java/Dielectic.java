@@ -34,13 +34,13 @@ public class Dielectic extends Material{
         if (refract(r.direction(), outward_normal, ni_over_nt, wrapper)) {
             //发生了折射 计算反射系数
             reflect_prob = schlick(cosine, ref_idx);
-//            wrapper.scattered = new Ray(rec.p, wrapper.refracted); //若没有考虑全反射 则此处直接输出折射光线
+            //wrapper.scattered = new Ray(rec.p, wrapper.refracted); //若没有考虑全反射 则此处直接输出折射光线
         }
         else {
             //计算折射光线方向向量的函数返回false，即出现全反射。
-//            wrapper.scattered = new Ray(rec.p, reflected);
+            //wrapper.scattered = new Ray(rec.p, reflected);
             reflect_prob = 1.0f;
-//            return false;
+            //return false;
         }
         /*产生一个（0，1）的随机数，如果随机数小于反射系数，则设置为反射光线，反之，设置为折射光线。
             也就是只有反射光线或折射光线中的一个咯，为什么？不是说好反射光线和折射光线都有吗？
